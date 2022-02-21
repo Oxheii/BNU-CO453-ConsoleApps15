@@ -7,7 +7,7 @@ namespace ConsoleAppProject.App01
     /// The main features of this app is to give users options for converting distances
     /// </summary>
     /// <author>
-    /// Richard Ochei version 0.1
+    /// Ricahard Ochei version 0.1
     /// </author>
     public class DistanceConverter
     {
