@@ -17,7 +17,7 @@ namespace ConsoleAppProject
     {
         public static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
 
             Console.WriteLine();

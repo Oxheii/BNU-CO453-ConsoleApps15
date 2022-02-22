@@ -3,7 +3,7 @@
 namespace ConsoleAppProject.App01
 {
     /// <summary>
-    /// This programme converts distances (to as well as from) between six different units: metres, kilometres, miles, and feet. 
+    /// This programme converts distances (to as well as from) between three different units: metres, miles, and feet. 
     /// </summary>
     /// <author>
     /// Richard Okon Ochei version - 0.1
@@ -92,10 +92,10 @@ namespace ConsoleAppProject.App01
             else if (inputUnit.Equals("miles", StringComparison.CurrentCultureIgnoreCase))
             {
                 middleLength = inputLength * 1609.35;
-            }         
+            }
             else
             {
-                outputLength = 0;
+                Console.WriteLine("you have made an invalid choice");
             }
         }
 
@@ -124,7 +124,11 @@ namespace ConsoleAppProject.App01
             {
                 outputLength = middleLength * 0.0006213689;
             }
-            
+            else
+            {
+                Console.WriteLine("you have made an invalid choice");
+            }
+
         }
 
         /// <summary>
