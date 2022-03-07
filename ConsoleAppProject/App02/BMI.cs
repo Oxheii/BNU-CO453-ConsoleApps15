@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace ConsoleAppProject.App02
 {
     /// <summary>
@@ -6,7 +7,7 @@ namespace ConsoleAppProject.App02
     /// the height and weight which are in double numbers
     /// </summary>
     /// <author>
-    /// Richard Ochei - Version 0.1
+    /// Richard ochei | version 0.1
     /// </author>
     public class BMI
     {
@@ -34,10 +35,10 @@ namespace ConsoleAppProject.App02
         public void OutputHeader()
         {
             Console.WriteLine();
-            Console.WriteLine(" ------------------------------- ");
+            Console.WriteLine(" =============================== ");
             Console.WriteLine("     BMI Calculator              ");
-            Console.WriteLine("     by Richard OChei            ");
-            Console.WriteLine(" ------------------------------- ");
+            Console.WriteLine("     by Richard Ochei            ");
+            Console.WriteLine(" =============================== ");
             Console.WriteLine();
         }
 
@@ -109,9 +110,7 @@ namespace ConsoleAppProject.App02
         }
 
         /// <summary>
-        /// this class is for the imperial calculations and is the same for metric,
-        /// but it will tell you to add your weight and height in pounds and inches, thus
-        /// calculating your BMI
+        /// this class is for the imperial calculations and is the same for metric.
         /// </summary>
         /// <returns></returns>
         private double CalcImperialBMI()
@@ -132,5 +131,4 @@ namespace ConsoleAppProject.App02
     }
 
 
-}
 }
