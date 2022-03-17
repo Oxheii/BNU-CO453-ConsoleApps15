@@ -18,7 +18,7 @@ namespace ConsoleAppProject
     {
         public static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
 
 
             Console.WriteLine();
@@ -28,8 +28,10 @@ namespace ConsoleAppProject
             Console.WriteLine(" =================================================");
             Console.WriteLine();
 
-            DistanceConverter converter = new DistanceConverter();
-            converter.Run();
+            
+            StudentGrades studentGrades = new StudentGrades();
+            
+            studentGrades.Run();
             Console.Beep();
         }
     }
