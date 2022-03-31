@@ -6,7 +6,7 @@ namespace ConsoleAppProject.Helpers
 {
     /// <summary>
     /// These methods extend existing classes or enuerations
-    /// By Richard Ochei
+    /// By Derek & Andrei
     /// </summary>
     public static class ExtensionMethods
     {
