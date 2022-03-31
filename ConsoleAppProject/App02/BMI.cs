@@ -42,6 +42,11 @@ namespace ConsoleAppProject.App02
             Console.WriteLine();
         }
 
+        internal void DisplayMenu()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// i have made a private class for getunits and when the prgram starts
         /// it will tell you to enter imperial or metric

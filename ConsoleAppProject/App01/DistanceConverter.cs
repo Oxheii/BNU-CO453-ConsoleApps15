@@ -58,6 +58,11 @@ namespace ConsoleAppProject.App01
             outputUnit = Console.ReadLine();
         }
 
+        internal void DisplayMenu()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// User inputs length that will be used
         /// </summary>
