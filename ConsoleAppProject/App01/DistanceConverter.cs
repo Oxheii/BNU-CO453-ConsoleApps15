@@ -6,7 +6,7 @@ namespace ConsoleAppProject.App01
     /// This programme converts distances (to as well as from) between three different units: metres, miles, and feet. 
     /// </summary>
     /// <author>
-    /// Richard Okon Ochei version - 0.1
+    /// Richard Okon version - 0.1
     /// </author>
     public class DistanceConverter
     {
@@ -45,6 +45,11 @@ namespace ConsoleAppProject.App01
             Console.WriteLine("          App01 Distance Converter         ");
             Console.WriteLine("            By Richard Okon Ochei          ");
             Console.WriteLine("===========================================");
+        }
+
+        internal void ConvertDistance()
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>

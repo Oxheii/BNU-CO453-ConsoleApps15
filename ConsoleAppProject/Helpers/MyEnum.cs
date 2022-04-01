@@ -8,7 +8,7 @@ namespace ConsoleAppProject.Helpers
     /// This is an example of how annotations can ber added
     /// to an Enumeration.  Access to thee name and the description
     /// is through EnumHelpers class or ExtensionMethods
-    /// by Derek & Andrei
+    /// by Richard 
     /// </summary>
     public enum MyEnum
     {

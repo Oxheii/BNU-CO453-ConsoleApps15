@@ -11,7 +11,7 @@ namespace ConsoleAppProject.App03
     /// </summary>
     /// 
     /// <author>
-    /// Richard Okon Ochei - Version 1.0
+    /// Richard Okon Richard Ochei - Version 1.0
     /// </author>
     public class StudentGrades
     {

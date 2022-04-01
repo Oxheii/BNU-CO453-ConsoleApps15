@@ -6,13 +6,13 @@ namespace ConsoleAppProject.Helpers
 {
     /// <summary>
     /// These methods extend existing classes or enuerations
-    /// By Derek & Andrei
+    /// By Richard 
     /// </summary>
     public static class ExtensionMethods
     {
 
         /// <summary>
-        /// Discovered by Andrei Cruceru Where ??
+        /// Discovered by Richard Ochei Where ??
         /// Much better as it works for any enumeration but needs
         /// using System.ComponentModel;
         /// using System.ComponentModel.DataAnnotations;
@@ -28,7 +28,7 @@ namespace ConsoleAppProject.Helpers
         }
 
         /// <summary>
-        /// Discovered by Derek in Stack Overflow
+        /// Discovered by Richard in Stack Overflow
         /// Not so good as it needs a new method for every 
         /// different enumeration
         /// </summary>

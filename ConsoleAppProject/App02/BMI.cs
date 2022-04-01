@@ -7,7 +7,7 @@ namespace ConsoleAppProject.App02
     /// the height and weight which are in double numbers
     /// </summary>
     /// <author>
-    /// Richard ochei | version 0.1
+    /// Richard Ochei | version 0.1
     /// </author>
     public class BMI
     {
@@ -40,6 +40,11 @@ namespace ConsoleAppProject.App02
             Console.WriteLine("     by Richard Ochei            ");
             Console.WriteLine(" =============================== ");
             Console.WriteLine();
+        }
+
+        internal void Run()
+        {
+            throw new NotImplementedException();
         }
 
         internal void DisplayMenu()

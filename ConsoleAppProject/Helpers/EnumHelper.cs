@@ -80,7 +80,7 @@ namespace ConsoleAppProject.Helpers
             string testName = EnumHelper<Grades>.GetName(grade);
 
             Console.WriteLine();
-            Console.WriteLine("Discovered by Derek Using EnumHelper\n");
+            Console.WriteLine("Discovered by Richard Using EnumHelper\n");
             Console.WriteLine($"Name = {testName}");
             Console.WriteLine($"Description = {testDescription}");
 
